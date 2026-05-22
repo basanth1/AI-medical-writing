@@ -1,0 +1,16 @@
+.git
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.coverage
+.env
+.env.*
+!.env.example
+frontend/node_modules
+frontend/dist
+backend/db/faiss_indexes
+backend/db/finalized_documents
+*.ipynb
+projectDraft.txt
+PROJECT_SOURCE_CODE.txt

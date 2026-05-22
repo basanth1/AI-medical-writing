@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets and generated app output
+.env
+.env.*
+!.env.example
+frontend/dist/
+backend/db/faiss_indexes/
+backend/db/finalized_documents/
+
+# Added by code-review-graph
+.code-review-graph/

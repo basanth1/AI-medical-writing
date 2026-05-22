@@ -1,0 +1,39 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8765:8765"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - OLLAMA_API_KEY=${OLLAMA_API_KEY}
+      - GROQ_MODEL=medical
+      - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in .env}
+      - USER_USERNAME=${USER_USERNAME:-user}
+      - USER_PASSWORD=${USER_PASSWORD:?Set USER_PASSWORD in .env}
+      - FAISS_INDEX_PATH=/app/data/faiss_index
+      - LOG_LEVEL=INFO
+      - API_RELOAD=false
+      - ENABLE_NER=false
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8765/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "5173:5173"
+    command: sh -c "npm ci && npm run dev -- --host 0.0.0.0"
+    environment:
+      - VITE_API_BASE=http://localhost:8765/api/v1
+    depends_on:
+      api:
+        condition: service_healthy

@@ -1,0 +1,66 @@
+{
+  "section_map": {
+    "Clinical Study Protocol": [
+      [
+        "intro",
+        "1. Introduction and Rationale"
+      ],
+      [
+        "objectives",
+        "2. Study Objectives and Endpoints"
+      ],
+      [
+        "investigational_plan",
+        "3. Investigational Plan"
+      ],
+      [
+        "study_design",
+        "3.1. Study Design and Methodology"
+      ],
+      [
+        "risk_benefits",
+        "3.2. Risk and Benefits"
+      ],
+      [
+        "population",
+        "4. Study Population — Inclusion / Exclusion Criteria"
+      ],
+      [
+        "treatment",
+        "5. Treatment Plan and Dosing"
+      ],
+      [
+        "visit_schedule",
+        "5.1. Visit Schedule and Assessments"
+      ],
+      [
+        "safety",
+        "6. Safety Assessment and Monitoring"
+      ],
+      [
+        "adverse_events",
+        "6.1. Adverse Events"
+      ],
+      [
+        "statistics",
+        "7. Statistical Methodology"
+      ],
+      [
+        "ethics",
+        "8. Ethical Considerations"
+      ],
+      [
+        "data_management",
+        "9. Data Management and Quality Assurance"
+      ],
+      [
+        "reference",
+        "contact"
+      ]
+    ]
+  },
+  "_updated_at": "2026-05-11T07:31:39.282513+00:00",
+  "section_systems": {
+    "reference": "add contact information for the clinical trial mention the placeholder wherever there is content like names, phone no. etc"
+  }
+}

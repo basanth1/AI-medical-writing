@@ -1,0 +1,52 @@
+{
+  "basanthcr": {
+    "username": "basanthcr",
+    "full_name": "Basanth kumar",
+    "email": "basanthp@circulants.com",
+    "role": "user",
+    "salt": "9086acdef2229bfd69ae4b94af2e7eb5",
+    "password_hash": "fced5a8a52684f065de3eef5ffd66ec44209f4685678ceaeb57cd8034447a2c3",
+    "created_at": 1779354661.7765844,
+    "status": "active"
+  },
+  "basanth": {
+    "username": "basanth",
+    "full_name": "Basanth kumar",
+    "email": "basanthp@circulants.com",
+    "role": "user",
+    "salt": "13213d7f7e5bab00e932b2c8332d4e86",
+    "password_hash": "e5f5e5cd9a15d4dd34f0061238f98acaa3a0e3b62c44dbba19c69685bb544d60",
+    "created_at": 1779355634.9149177,
+    "status": "active"
+  },
+  "nachiketh": {
+    "username": "nachiketh",
+    "full_name": "nachiket",
+    "email": "nachikethp@circulants.com",
+    "role": "user",
+    "salt": "ff0762bac2c0273ef74b07adde8dabd3",
+    "password_hash": "bc73241228037e228a25c8be5a0c358d059dcd015b2af116e0c6e3dda398f0ac",
+    "created_at": 1779436625.40507,
+    "status": "active"
+  },
+  "mani": {
+    "username": "mani",
+    "full_name": "manikanta",
+    "email": "manikanta@gmail.com",
+    "role": "user",
+    "salt": "a5bc1aec9f0a94347166bac84e4dbd05",
+    "password_hash": "da7b6f5ff9ffd0fe3945441aaa80b75a465e760b6ba3400be7dfe79520e71905",
+    "created_at": 1779436886.7045352,
+    "status": "active"
+  },
+  "bunny": {
+    "username": "bunny",
+    "full_name": "basanth",
+    "email": "basanth@gmail.com",
+    "role": "user",
+    "salt": "d2e360c2f276bb2e068d89e52c37cacf",
+    "password_hash": "16d4e9f8e1c9cc354d33de8823c925c14807315b7e9a45a03b19a9b8673bf667",
+    "created_at": 1779437633.2136772,
+    "status": "active"
+  }
+}
